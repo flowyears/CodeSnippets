@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sjx_property_copy</string>
+	<string>sjx_warning</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property(nonatomic,copy)&lt;#id#&gt; *&lt;#obj#&gt;;</string>
+	<string>#warning &lt;#message#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>46C2D8F8-C64F-4F89-88D1-92837388D51F</string>
+	<string>94CB3135-3EF2-4D53-B557-A2CFA657612C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>property_copy</string>
+	<string>warning</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
