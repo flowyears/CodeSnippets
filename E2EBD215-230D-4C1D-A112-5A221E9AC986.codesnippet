@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sjx_afterGCD</string>
+	<string>JX_GCD_After</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(&lt;#delayInSeconds#&gt; * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        &lt;#code to be executed after a specified delay#&gt;
-    });</string>
+    &lt;#code to be executed after a specified delay#&gt;
+});</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E2EBD215-230D-4C1D-A112-5A221E9AC986</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>afterGCD</string>
+	<string>JX_GCD_After</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

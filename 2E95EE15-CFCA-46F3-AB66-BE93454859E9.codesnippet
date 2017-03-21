@@ -3,22 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>JX_Mark</string>
+	<string>JX_NS_ENUM</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - &lt;#mark#&gt;</string>
+	<string>typedef NS_ENUM(NSUInteger, &lt;#MyEnum#&gt;) {
+    &lt;#MyEnumValueA#&gt;,
+    &lt;#MyEnumValueB#&gt;,
+    &lt;#MyEnumValueC#&gt;,
+};</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>97B08AEA-C0A6-4B09-9A00-6A8CA9FF9B72</string>
+	<string>2E95EE15-CFCA-46F3-AB66-BE93454859E9</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>JX_Mark</string>
+	<string>JX_NS_ENUM</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

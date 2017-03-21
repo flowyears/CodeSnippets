@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sjx_fillData</string>
+	<string>JX_DataFill</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>-(void)fillData:(&lt;#ModelClass#&gt; *)&lt;#model#&gt;
+	<string>-(void)dataFill:(&lt;#ModelClass#&gt; *)&lt;#model#&gt;
 {
-    &lt;#code#&gt;
+    
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>539FEF03-06D3-494D-8484-88AAA8BE95D3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>fillData</string>
+	<string>JX_DataFill</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

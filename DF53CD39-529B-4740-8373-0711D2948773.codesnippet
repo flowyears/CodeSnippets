@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sjx_onceGCD</string>
+	<string>JX_GCD_Once</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>static dispatch_once_t onceToken;
-    dispatch_once(&amp;onceToken, ^{
-        &lt;#code to be executed once#&gt;
-    });</string>
+dispatch_once(&amp;onceToken, ^{
+    &lt;#code to be executed once#&gt;
+});</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>DF53CD39-529B-4740-8373-0711D2948773</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>onceGCD</string>
+	<string>JX_GCD_Once</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

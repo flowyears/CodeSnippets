@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sjx_property_strong</string>
+	<string>JX_Property_strong</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>@property(nonatomic,strong)&lt;#id#&gt; *&lt;#obj#&gt;;</string>
@@ -17,7 +17,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>property,strong修饰</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>property_strong</string>
+	<string>JX_Property_strong</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>sjx_property_weak</string>
+	<string>JX_Property_weak</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property(nonatomic,weak)&lt;#id#&gt; *&lt;#obj#&gt;;</string>
+	<string>@property(nonatomic,weak)&lt;#id#&gt; &lt;#obj#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>63C85947-421F-420E-A9A8-CDF16BEABBBE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>property_weak</string>
+	<string>JX_Property_weak</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
