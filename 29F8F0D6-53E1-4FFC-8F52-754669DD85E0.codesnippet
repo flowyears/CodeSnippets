@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>JX_ UITextField_Getter</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>-(UITextField *)&lt;#TextFieldName#&gt;
+{
+    if (!_&lt;#TextFieldName#&gt;)
+    {
+        _&lt;#TextFieldName#&gt; = [[UITextField alloc]initWithFrame:&lt;#(CGRect)#&gt;];
+        _&lt;#TextFieldName#&gt;.placeholder = @"";
+        _&lt;#TextFieldName#&gt;.font = [UIFont systemFontOfSize:16];
+        _&lt;#TextFieldName#&gt;.delegate =self;
+        _&lt;#TextFieldName#&gt;.returnKeyType = UIReturnKeyDone;
+        _&lt;#TextFieldName#&gt;.clearButtonMode = UITextFieldViewModeWhileEditing;
+        //_&lt;#TextFieldName#&gt;.textColor = [UIColor blackColor];
+        //_&lt;#TextFieldName#&gt;.textAlignment = NSTextAlignmentLeft;
+        //_&lt;#TextFieldName#&gt;.borderStyle = UITextBorderStyleNone;
+        //_&lt;#TextFieldName#&gt;.backgroundColor = [UIColor grayColor];
+        //_&lt;#TextFieldName#&gt;.background = [UIImage imageNamed:@""];
+        //_&lt;#TextFieldName#&gt;.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
+        //_&lt;#TextFieldName#&gt;.secureTextEntry = YES;
+        //_&lt;#TextFieldName#&gt;.tintColor = [UIColor greenColor];
+        
+        //UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 10, 10)];
+        //_&lt;#TextFieldName#&gt;.leftView = view;
+        //_&lt;#TextFieldName#&gt;.leftViewMode = UITextFieldViewModeAlways;
+        [_&lt;#TextFieldName#&gt; addTarget:self action:@selector(textFieldDidChange:) forControlEvents:UIControlEventEditingChanged];
+    }
+    return _&lt;#TextFieldName#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>29F8F0D6-53E1-4FFC-8F52-754669DD85E0</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>JX_ UITextField_Getter</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

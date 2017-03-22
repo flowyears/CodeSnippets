@@ -3,23 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>JX_NS_ENUM</string>
+	<string>JX_Menu</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>typedef NS_ENUM(NSUInteger, &lt;#MyEnum#&gt;) {
-    &lt;#MyEnumValueA#&gt;,
-    &lt;#MyEnumValueB#&gt;,
-    &lt;#MyEnumValueC#&gt;,
-};</string>
+	<string>#pragma mark - Life Cycle
+#pragma mark - UI
+#pragma mark - Data
+#pragma mark - Action
+#pragma mark - Notification
+#pragma mark - Method
+#pragma mark - Getter And Setter</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2E95EE15-CFCA-46F3-AB66-BE93454859E9</string>
+	<string>FDD6A345-FE56-4CE1-85BF-974B81AF172F</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>代码大纲</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>JX_NS_ENUM</string>
+	<string>JX_Menu</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

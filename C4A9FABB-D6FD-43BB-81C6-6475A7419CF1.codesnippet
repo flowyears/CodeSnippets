@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>JX_UISwitch_Getter</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UISwitch *)&lt;#SwitchName#&gt;
+{
+    if (!_&lt;#SwitchName#&gt;)
+    {
+        _&lt;#SwitchName#&gt; = [[UISwitch alloc] init];
+        _&lt;#SwitchName#&gt;.on = YES;
+        [_&lt;#SwitchName#&gt; addTarget:self
+                            action:@selector(changeSwitch:)
+                 forControlEvents:UIControlEventValueChanged];
+        //_&lt;#SwitchName#&gt;.tintColor = [UIColor blueColor];
+    }
+    return _&lt;#SwitchName#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C4A9FABB-D6FD-43BB-81C6-6475A7419CF1</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>JX_UISwitch_Getter</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

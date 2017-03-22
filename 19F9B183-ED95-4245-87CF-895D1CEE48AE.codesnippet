@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>JX_UIAlertController</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeExpression</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIAlertController *alertController = [UIAlertController alertControllerWithTitle:&lt;#(nullable NSString *)#&gt;
+                                                                         message:&lt;#(nullable NSString *)#&gt;
+                                                                  preferredStyle:&lt;#(UIAlertControllerStyle)#&gt;];
+
+
+UIAlertAction *actionCancel = [UIAlertAction actionWithTitle:@"取消"
+                                                       style:UIAlertActionStyleCancel
+                                                     handler:^(UIAlertAction * _Nonnull action) {
+                                                         
+                                                     }];
+
+UIAlertAction *actionDelete = [UIAlertAction actionWithTitle:@"删除"
+                                                       style:UIAlertActionStyleDestructive
+                                                     handler:^(UIAlertAction * _Nonnull action) {
+                                                         
+                                                     }];
+
+UIAlertAction *actionOK = [UIAlertAction actionWithTitle:@"确定"
+                                                   style:UIAlertActionStyleDefault
+                                                 handler:^(UIAlertAction * _Nonnull action) {
+                                                     
+                                                 }];
+
+[alertController addTextFieldWithConfigurationHandler:^(UITextField * _Nonnull textField) {
+    textField.placeholder = @"姓名";
+    [textField addTarget:self
+                  action:@selector(alertTextFieldDidChange:)
+        forControlEvents:UIControlEventEditingChanged];
+}];
+
+[alertController addAction:actionCancel];
+[alertController addAction:actionDelete];
+[alertController addAction:actionOK];
+[self presentViewController:alertController animated:YES completion:nil];
+
+
+- (void)alertTextFieldDidChange:(UITextField *)sender
+{
+    UIAlertController *alertController = (UIAlertController *)self.presentedViewController;
+    if (alertController)
+    {
+        UITextField *login = alertController.textFields.firstObject;
+        UIAlertAction *okAction = alertController.actions.lastObject;
+        okAction.enabled = login.text.length &gt; 0;
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>19F9B183-ED95-4245-87CF-895D1CEE48AE</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>JX_UIAlertController</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

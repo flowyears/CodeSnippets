@@ -3,23 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>JX_NS_ENUM</string>
+	<string>JX_MutableDictionary</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>typedef NS_ENUM(NSUInteger, &lt;#MyEnum#&gt;) {
-    &lt;#MyEnumValueA#&gt;,
-    &lt;#MyEnumValueB#&gt;,
-    &lt;#MyEnumValueC#&gt;,
-};</string>
+	<string>- (NSMutableDictionary *)&lt;#DicName#&gt;
+{
+    if (!_&lt;#DicName#&gt;)
+    {
+        _&lt;#DicName#&gt; = [[NSMutableDictionary alloc] init];
+    }
+    return _&lt;#DicName#&gt;;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2E95EE15-CFCA-46F3-AB66-BE93454859E9</string>
+	<string>073A2686-B3C0-4092-B5E6-CE9022889BA0</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>JX_NS_ENUM</string>
+	<string>JX_MutableDictionary</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

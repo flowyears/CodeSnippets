@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>JX_UIButton_Getter</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UIButton *)&lt;#buttonName#&gt;
+{
+    if (!_&lt;#buttonName#&gt;)
+    {
+        _&lt;#buttonName#&gt; = [UIButton buttonWithType:UIButtonTypeCustom];
+        _&lt;#buttonName#&gt;.tag = btnTagEditWork;
+        [_&lt;#buttonName#&gt; setTitle:title forState:UIControlStateNormal];
+        [_&lt;#buttonName#&gt; addTarget:self
+                         action:@selector(btnClicked:)
+               forControlEvents:UIControlEventTouchUpInside];
+        //字体
+        [_&lt;#buttonName#&gt;.titleLabel setFont:font];
+        
+        //文字颜色
+        [_&lt;#buttonName#&gt; setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
+        [_&lt;#buttonName#&gt; setTitleColor:[UIColor whiteColor] forState:UIControlStateHighlighted];
+        
+        //背景颜色
+        [_&lt;#buttonName#&gt; setBackgroundColor:[UIColor grayColor]];
+        
+        //背景图
+        UIImage *bgImageNormal = [UIImage imageNamed:@""];
+        UIImage *bgImageHighlighted = [UIImage imageNamed:@""];
+
+        [_&lt;#buttonName#&gt; setBackgroundImage:bgImageNormal forState:UIControlStateNormal];
+        [_&lt;#buttonName#&gt; setBackgroundImage:bgImageHighlighted forState:UIControlStateHighlighted];
+        
+        //图
+        UIImage *imageNormal = [UIImage imageNamed:@""];
+        UIImage *imageHighlighted = [UIImage imageNamed:@""];
+        
+        [_&lt;#buttonName#&gt; setBackgroundImage:imageNormal forState:UIControlStateNormal];
+        [_&lt;#buttonName#&gt; setBackgroundImage:imageHighlighted forState:UIControlStateHighlighted];
+    }
+    return _editWorkBtn;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>EEE7987C-9B0F-460D-89D7-7B10B6D82EEA</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>JX_UIButton_Getter</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

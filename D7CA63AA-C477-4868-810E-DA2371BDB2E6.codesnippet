@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>JX_ UISegmentedControl_Getter</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UISegmentedControl *)&lt;#SegmentedControlName#&gt;
+{
+    if (!_&lt;#SegmentedControlName#&gt;)
+    {
+        _&lt;#SegmentedControlName#&gt; = [[UISegmentedControl alloc] initWithItems:@[@"实名",@"匿名"]];
+        _&lt;#SegmentedControlName#&gt;.selectedSegmentIndex = 0;
+        _&lt;#SegmentedControlName#&gt;.tintColor = [UIColor blueColor];
+        _&lt;#SegmentedControlName#&gt;.backgroundColor = [UIColor whiteColor];
+        [_&lt;#SegmentedControlName#&gt; addTarget:self action:@selector(segValueChanged:) forControlEvents:UIControlEventValueChanged];
+    }
+    return _&lt;#SegmentedControlName#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D7CA63AA-C477-4868-810E-DA2371BDB2E6</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>JX_ UISegmentedControl_Getter</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

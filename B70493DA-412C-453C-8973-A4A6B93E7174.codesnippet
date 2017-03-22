@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>JX_UITextView_Getter</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UITextView *)&lt;#TextViewName#&gt;
+{
+    if (!_&lt;#TextViewName#&gt;)
+    {
+        _&lt;#TextViewName#&gt; = [[UITextView alloc] init];
+        _&lt;#TextViewName#&gt;.delegate = self;
+        _&lt;#TextViewName#&gt;.font = [UIFont systemFontOfSize:15];
+        //_&lt;#TextViewName#&gt;.scrollEnabled = NO;
+        //_&lt;#TextViewName#&gt;.editable = NO;
+        //_&lt;#TextViewName#&gt;.backgroundColor = [UIColor clearColor];
+    }
+    return _&lt;#TextViewName#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B70493DA-412C-453C-8973-A4A6B93E7174</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>JX_UITextView_Getter</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
