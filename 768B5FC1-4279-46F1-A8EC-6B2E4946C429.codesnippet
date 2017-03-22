@@ -3,38 +3,31 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>JX_UIWebViewDelegate</string>
+	<string>JX_UIView_Getter</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - UIWebViewDelegate
-- (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType
+	<string>- (UIView *)&lt;#viewName#&gt;
 {
-    return YES;
-}
-- (void)webViewDidStartLoad:(UIWebView *)webView
-{
-
-}
-- (void)webViewDidFinishLoad:(UIWebView *)webView
-{
-    
-}
-- (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error
-{
-    
+    if (!_&lt;#viewName#&gt;)
+    {
+        _&lt;#viewName#&gt; = [[UIView alloc] initWithFrame:&lt;#(CGRect)#&gt;];
+        //_&lt;#viewName#&gt;.backgroundColor = [UIColor whiteColor];
+        //_&lt;#viewName#&gt;.userInteractionEnabled = YES;//默认yes
+    }
+    return _&lt;#viewName#&gt;;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9DD922C4-C3AB-4635-8DC7-EA9769E50D6E</string>
+	<string>768B5FC1-4279-46F1-A8EC-6B2E4946C429</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>JX_UIWebViewDelegate</string>
+	<string>JX_UIView_Getter</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

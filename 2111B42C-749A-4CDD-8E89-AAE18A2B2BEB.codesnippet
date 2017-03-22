@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>JX_UICollectionView_Getter</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UICollectionView *)&lt;#CollectionViewName#&gt;
+{
+    if (!_&lt;#CollectionViewName#&gt;)
+    {//CHTCollectionViewWaterfallLayout三方库
+        CHTCollectionViewWaterfallLayout *layout = [[CHTCollectionViewWaterfallLayout alloc] init];
+        layout.sectionInset = UIEdgeInsetsMake(0, 0, 0, 0);
+        //layout.footerHeight = 20;
+        layout.minimumColumnSpacing = 10;       //cell之间的水平间距
+        layout.minimumInteritemSpacing = 10;    //cell之间的垂直间距
+        layout.columnCount = 4;
+        
+        _&lt;#CollectionViewName#&gt; = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:layout];
+        _&lt;#CollectionViewName#&gt;.dataSource = self;
+        _&lt;#CollectionViewName#&gt;.delegate = self;
+        _&lt;#CollectionViewName#&gt;.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
+        _&lt;#CollectionViewName#&gt;.allowsSelection = YES;
+        _&lt;#CollectionViewName#&gt;.backgroundColor = [UIColor clearColor];
+        //_&lt;#CollectionViewName#&gt;.showsHorizontalScrollIndicator = NO;
+        //_&lt;#CollectionViewName#&gt;.contentInset = UIEdgeInsetsMake(0, 10, 0, 10);
+        //_&lt;#CollectionViewName#&gt;.allowsMultipleSelection = YES;
+        [_&lt;#CollectionViewName#&gt; registerClass:[UICollectionViewCell class]
+           forCellWithReuseIdentifier:CELL_IDENTIFIER];
+    }
+    return _&lt;#CollectionViewName#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2111B42C-749A-4CDD-8E89-AAE18A2B2BEB</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>JX_UICollectionView_Getter</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
