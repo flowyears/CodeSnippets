@@ -3,28 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>JX_UIView_Getter</string>
+	<string>setFrame_QMUI</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (UIView *)&lt;#viewName#&gt;
-{
-    if (!_&lt;#viewName#&gt;)
-    {
-        _&lt;#viewName#&gt; = [[UIView alloc] initWithFrame:&lt;#(CGRect)#&gt;];
-        //_&lt;#viewName#&gt;.backgroundColor = [UIColor whiteColor];
-        //_&lt;#viewName#&gt;.userInteractionEnabled = YES;//默认yes
-    }
-    return _&lt;#viewName#&gt;;
-}</string>
+	<string>&lt;#view#&gt;.frame = CGRectFlatMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>768B5FC1-4279-46F1-A8EC-6B2E4946C429</string>
+	<string>0E66F758-D976-483F-A71A-1B94A8ADA34A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>JX_UIView_Getter</string>
+	<string>set UIView frame with QMUI CGRectFlatMake</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

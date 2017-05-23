@@ -3,28 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>JX_UIView_Getter</string>
+	<string>cellForRowAtIndexPath</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (UIView *)&lt;#viewName#&gt;
-{
-    if (!_&lt;#viewName#&gt;)
-    {
-        _&lt;#viewName#&gt; = [[UIView alloc] initWithFrame:&lt;#(CGRect)#&gt;];
-        //_&lt;#viewName#&gt;.backgroundColor = [UIColor whiteColor];
-        //_&lt;#viewName#&gt;.userInteractionEnabled = YES;//默认yes
+	<string>- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    static NSString *identifier = @"cell";
+    &lt;#UITableViewCell#&gt; *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
+    if (!cell) {
+        cell = [[&lt;#UITableViewCell#&gt; alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
     }
-    return _&lt;#viewName#&gt;;
+    return cell;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>768B5FC1-4279-46F1-A8EC-6B2E4946C429</string>
+	<string>021DC28A-CFB6-45A2-B055-D3D552E5301D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>JX_UIView_Getter</string>
+	<string>cellForRowAtIndexPath:</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

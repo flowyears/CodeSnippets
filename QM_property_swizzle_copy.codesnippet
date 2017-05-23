@@ -3,28 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>JX_UIView_Getter</string>
+	<string>propertySwizzleCopy</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (UIView *)&lt;#viewName#&gt;
-{
-    if (!_&lt;#viewName#&gt;)
-    {
-        _&lt;#viewName#&gt; = [[UIView alloc] initWithFrame:&lt;#(CGRect)#&gt;];
-        //_&lt;#viewName#&gt;.backgroundColor = [UIColor whiteColor];
-        //_&lt;#viewName#&gt;.userInteractionEnabled = YES;//默认yes
-    }
-    return _&lt;#viewName#&gt;;
+	<string>static char kAssociatedObjectKey_&lt;#property name#&gt;;
+- (void)set&lt;#Property name#&gt;:(&lt;#Property type#&gt; *)argv {
+    objc_setAssociatedObject(self, &amp;kAssociatedObjectKey_&lt;#property name#&gt;, argv, OBJC_ASSOCIATION_COPY_NONATOMIC);
+}
+
+- (&lt;#Property type#&gt; *)&lt;#property name#&gt; {
+    return (&lt;#Property type#&gt; *)objc_getAssociatedObject(self, &amp;kAssociatedObjectKey_&lt;#property name#&gt;);
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>768B5FC1-4279-46F1-A8EC-6B2E4946C429</string>
+	<string>499A01BF-2245-446A-A7D5-D940FE6833CD</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>JX_UIView_Getter</string>
+	<string>用swizzle方式创建copy类型的property的getter/setter</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

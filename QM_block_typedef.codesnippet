@@ -3,28 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>JX_UIView_Getter</string>
+	<string>blocktypedef</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (UIView *)&lt;#viewName#&gt;
-{
-    if (!_&lt;#viewName#&gt;)
-    {
-        _&lt;#viewName#&gt; = [[UIView alloc] initWithFrame:&lt;#(CGRect)#&gt;];
-        //_&lt;#viewName#&gt;.backgroundColor = [UIColor whiteColor];
-        //_&lt;#viewName#&gt;.userInteractionEnabled = YES;//默认yes
-    }
-    return _&lt;#viewName#&gt;;
-}</string>
+	<string>typedef &lt;#returnType#&gt; (^&lt;#blockName#&gt;)(&lt;#arguments#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>768B5FC1-4279-46F1-A8EC-6B2E4946C429</string>
+	<string>80FEABC7-1C63-4C3F-A937-D0E3D8D04100</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>block的typedef定义</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>JX_UIView_Getter</string>
+	<string>typedef block</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

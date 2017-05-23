@@ -40,10 +40,10 @@
         UIImage *imageNormal = [UIImage imageNamed:@""];
         UIImage *imageHighlighted = [UIImage imageNamed:@""];
         
-        [_&lt;#buttonName#&gt; setBackgroundImage:imageNormal forState:UIControlStateNormal];
-        [_&lt;#buttonName#&gt; setBackgroundImage:imageHighlighted forState:UIControlStateHighlighted];
+        [_&lt;#buttonName#&gt; setImage:imageNormal forState:UIControlStateNormal];
+        [_&lt;#buttonName#&gt; setImage:imageHighlighted forState:UIControlStateHighlighted];
     }
-    return _editWorkBtn;
+    return _&lt;#buttonName#&gt;;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>EEE7987C-9B0F-460D-89D7-7B10B6D82EEA</string>

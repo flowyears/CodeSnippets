@@ -21,7 +21,7 @@
         _&lt;#labelName#&gt;.lineBreakMode = NSLineBreakByWordWrapping;
         _&lt;#labelName#&gt;.backgroundColor = [UIColor clearColor];
     }
-    return __&lt;#labelName#&gt;;
+    return _&lt;#labelName#&gt;;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>D7850D35-7147-455A-B29D-D19654C139B1</string>
